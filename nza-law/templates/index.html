@@ -1,37 +1,14 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>NZA Law (but for legal reasons *NOT* NZA Law</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
     <body>
         <!-- Start of container -->
         <div class="container the-body"> 
 
-            <!-- Header start -->
-            <header>
-                <!-- Header has an image, logo -->
-                <img src="https://placehold.it/300x100" alt="Company Logo" />
-            </header>
-            <nav>
-                <ol>
-                    <li><a href="./who-we-are.html">WHO WE ARE</a></li>
-                    <li><a href="./what-we-do.html">WHAT WE DO</a></li>
-                    <li>NEWS & EVENTS</li>
-                    <li>WHERE WE WORK</li>
-                    <li>CONTACT US</li>
-                </ol>
-            </nav>
+           
 
+            {% extends 'base.html' %}
+
+            {% block content %}
             <!-- Main Section Start -->
+            
             <main>
                 <!-- Start of main body -->
                 <div class="row" id="index-feature">
@@ -74,23 +51,9 @@
                     </div> <!-- End of Row 2, col-md-4 -->
                 </div> <!-- End of Row 2 -->
             </main>
-
+            {% endblock content %}
             <!-- Start of footer -->
-            <footer>
-                <div id="bottom-nav">
-                    <ul>
-                        <li>HOME</li>
-                        <li>WHO WE ARE</li>
-                        <li>WHAT WE DO</li>
-                        <li>NEWS & EVENTS</li>
-                        <li>WHERE WE WORK</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </div>
-
-                <P class="copyright">&copy;2009 Nielson, Zehe & Antas, P.C // Website Design by One Ten Creative</P>
-
-            </footer>
+            
         </div> <!-- End of Container -->
         
         <script src="" async defer></script>
